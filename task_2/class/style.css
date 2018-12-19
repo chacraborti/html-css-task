@@ -1,0 +1,103 @@
+/*
+селектор {
+	свойство: значение;
+	свойство: значение значение;
+	свойство: значение;
+}
+*/
+
+/* Универсальный селектор */
+
+* {
+	/*Отступ от элемента*/
+	margin: 0;
+	
+	/*Поле внутри элемента*/
+	padding: 0;
+}
+
+/* Селектор тегов */
+
+body {
+	/*background-color: yellow;*/
+}
+
+h1 {
+	/*Цвет текста*/
+	color: green;
+	
+	/*Выравнивание содержимого по горизонтали. Значения: left, right, center, justify*/
+	text-align: center;
+}
+
+p {
+	/*Отступ первой строки. Значение в px или %*/
+	text-indent: 30px;
+	
+	/*Величина отступа между символами в px*/
+	letter-spacing: 0;
+}
+
+/* Вложенные селекторы */
+
+p b {
+	/*Отменим жирность всех <b>, которые лежат в <p></p>*/
+	font-weight: normal;
+	background-color: #cccccc;
+}
+
+/* Селектор классов */
+
+.subtitle {
+	text-align: center;	
+	color: #ffffff;
+	
+	/*Цвет фона элемента*/
+	background-color: green;
+}
+
+.bold {
+	/*Жирный текст.
+	Значение: bold, normal, bolder, 600, ... */
+	font-weight: bold;
+}
+
+.italic {
+	/*Начертание шрифта. Значения: normal, italic, oblique*/
+	font-style: italic;
+}
+
+.underline {
+	/*Оформление текста, устанавливает подчеркивание. Значения: underline, none, line-through, overline*/
+	text-decoration: underline;
+}
+
+.ul_circle {
+	/*Изменяет вид маркера.
+	Значения: circle, disc, square, decimal, lower-latin, ...*/
+	list-style-type: circle;
+}
+
+.ol_latin {
+	list-style-type: lower-latin;
+}
+
+/* Селектор идентификаторов */
+
+#abzac {
+	/*Изменение шрифта текста*/
+	font-family: Tahoma;
+	
+	/*Размер текста*/
+	font-size: 18px;
+	
+	text-align: justify;
+	
+	/*Межстрочный интервал. Значение в px*/
+	line-height: 24px;
+}
+
+
+
+
+
