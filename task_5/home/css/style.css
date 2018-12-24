@@ -20,7 +20,7 @@ a:active {
 }
 
 .header {
-	background-color: #9c9fa3;
+	background-color: #39aac6;
 }
 .header .col2 {
     font-size: 36px;
@@ -65,7 +65,7 @@ a:active {
 }
 
 .promo {
-	background-image: url('../img/wave-2211925_960_720.jpg');
+	background-image: url('../img/wave-2211925_1920.jpg');
 	text-align: center;
 	padding: 10% 5%;
 	height: 200px; /* You must set a specified height */
@@ -124,6 +124,11 @@ a:active {
 	 display: inline-block;
      width: 33%;
      right: 0;
+}
+
+.col1, .col2, .col3 {
+    vertical-align: top;
+    line-height: 25px;
 }
 
 
