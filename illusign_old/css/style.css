@@ -1,0 +1,29 @@
+* {
+	/*Отступ от элемента*/
+	margin: 0;
+
+	/*Поле внутри элемента*/
+	padding: 0;
+}
+
+.nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.col1 {
+	display: inline-block;
+	width: 65%;
+}
+.col2 {
+	display: inline-block;
+	width: 15%%;
+}
+.col3 {
+	 display: inline-block;
+}
