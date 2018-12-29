@@ -20,7 +20,7 @@
 
 }
 .nav li:hover {
-   background:  #00315E
+    background:  #001C36;
 }
 
 .nav ul {
@@ -30,6 +30,7 @@
 .nav li {
     display: inline-block;
     padding: 17px  20px 46px 20px;
+    max-height: 30px;
 }
 
 .nav li a {
@@ -44,7 +45,7 @@
 .logo {
     width: 33%;
     text-align: right;
-    
+
 }
 
 .name, .nav, .logo {
