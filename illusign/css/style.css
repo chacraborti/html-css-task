@@ -2,6 +2,14 @@
     padding: 0;
     margin: 0;
 }
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    position: relative;
+    padding-bottom: 50px;
+}
 .header {
     background: #00315E;
     box-shadow: inset 0 -30px white;
@@ -11,13 +19,14 @@
 .name {
     width: calc(33% - 30px);
     color: white;
-    padding: 17px  0 46px 30px;
-
+    padding: 0  0 0 30px;
+    opacity: 0.4;
 }
 .nav {
     text-align: center;
     width: 33%;
-
+    display: inline-block;
+    vertical-align: top;
 }
 .nav li:hover {
     background:  #001C36;
@@ -27,10 +36,15 @@
     list-style: none;
 }
 
+.nav li::after {
+    /*content: '';*/
+    /*border: 10px solid transparent; !* Прозрачные границы *!*/
+    /*border-top: 10px solid pink; !* Добавляем треугольник *!*/
+}
+
 .nav li {
     display: inline-block;
-    padding: 17px  20px 46px 20px;
-    max-height: 30px;
+    padding: 30px 20px 16px 20px;
 }
 
 .nav li a {
@@ -40,19 +54,40 @@
     font-size: 14px;
     text-decoration: none;
     color: white;
+    opacity: 0.8;
+}
+
+.logo_container {
+    width: 33%;
+    text-align: right;
+}
+
+.name, .logo_container {
+    margin-top: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .logo {
-    width: 33%;
+    padding-right: 30px;
+}
+
+.main {
+ }
+
+.footer{
+    position: absolute;
+    left: 0 ; right: 0; bottom: 0;
+    height: 50px;
+    background:  #001C36;
     text-align: right;
-
 }
 
-.name, .nav, .logo {
+.copyright_block{
     display: inline-block;
-    vertical-align: top;
+    color: white;
+    font-family: Roboto;
+    padding: 19px 30px 20px 0;
+    opacity: 0.4;
 
 }
-/*.logo .img{*/
-    /*display: inline-block;*/
-/*}*/
