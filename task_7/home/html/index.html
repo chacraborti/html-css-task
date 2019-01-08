@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Agata Poison">
+    <meta name="description" content="Content">
+    <link rel="stylesheet" href="../css/style.css"/>
+    <title>Title</title>
+</head>
+<body>
+<form action="file.js" method="get">
+    <h1>Please fill CV-form</h1><br>
+
+    <h2>General info:</h2><br>
+    <p>Last name <input type="text" required name="last_name" /></p><br>
+    <p>Name <input type="text" required name="name" /></p><br>
+    <p>Patronymic <input type="text" name="patronymic" /></p><br>
+    <p>Birth date <input type="date" name="birth_date" /></p><br>
+    <p>Sex
+        <select>
+            <option value="f">Female</option>
+            <option value="m">Male</option>
+            <option value="n_a">Not Specified</option>
+        </select>
+    </p><br>
+    <p>Photo <input type="file" name="photo" accept="image/jpeg,image/png,image/gif"/></p><br>
+
+    <br>
+    <h2>Contact details: </h2><br>
+    <p>Phone <input required type="tel" name="phone" /></p><br>
+
+    <p>E-mail <input type="email" name="email" /></p><br>
+
+    <p>Address <input min="16" max="90" type="number" name="year" /></p><br>
+
+    <p> City
+        <select name="city">
+        <option>Минск</option>
+        <option>Гродно</option>
+        <option>Гомель</option>
+        <option>Брест</option>
+    </select></p><br>
+
+    <h2>Education </h2><br>
+
+        <p>Higher<br> <textarea name="education_higher" rows="3" cols="45"></textarea></p><br>
+        <p>Secondary<br> <textarea  name="education_secondary" rows="3" cols="45"></textarea></p><br>
+        <p>Additional<br> <textarea  name="education_additional" rows="3" cols="45"></textarea></p><br>
+        <p>Courses<br> <textarea name="education_courses" rows="3" cols="45"></textarea></p><br>
+
+
+
+    <h2>Career</h2>
+    <div class="career">
+        <span>First place</span>  <textarea maxlength="300" rows="4" cols="45" name="career_first"></textarea>
+        <span>Start date</span> <input type="date" name="start_first" />
+        <span>End date</span> <input type="date" name="end_first" />
+    </div>
+
+    <div class="career">
+        <span>Second place</span> <textarea name="career_first" maxlength="300" rows="4" cols="45"></textarea>
+        <span>Start date</span> <input type="date" name="start_first" />
+        <span>End date</span> <input type="date" name="end_second" />
+    </div>
+
+    <div class="career">
+        <span>Third place</span> <textarea name="career_third" maxlength="300" rows="4" cols="45"></textarea>
+        <span>Start date</span> <input type="date" name="start_third" />
+        <span>End date</span> <input type="date" name="end_third" />
+    </div>
+
+
+
+    <h2>What should we know about you?</h2><br>
+        <textarea name="message" rows="13" cols="145"></textarea><br>
+    <div class="button_panel"><input type="submit" value="Send" />
+    <input type="reset" value="Clear" /></div>
+
+
+</form>
+</body>
+</html>
