@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<title>HTML документ</title>
+</head>
+<body>
+
+	<form action="" method="get">
+		
+	<p>ФИО <input type="text" name="fio" /></p>
+	<p>Телефон <input type="tel" name="phone" /></p>
+	
+	<p>Эл. почта <input type="email" name="email" /></p>
+	
+	<p>Сколько вам лет <input min="16" max="90" type="number" name="year" /></p>
+	
+	<p>Любимый цвет <input type="color" name="color" /></p>
+	
+	<p>Дата рождение <input type="date" name="birthday" /></p>
+	
+	<p>Выберите пол<br/>
+		<label><input type="radio" name="gender" /> - Сильный</label><br/>
+		<label><input type="radio" name="gender" /> - Слабый</label><br/>
+		<label><input type="radio" name="gender" /> - Другой</label><br/>
+	</p>
+	
+	<p>Выберите город<br />
+	<select name="city">
+		<option></option>
+		<option>Минск</option>
+		<option>Гродно</option>
+		<option>Гомель</option>
+		<option>Брест</option>
+	</select></p>
+
+	<p>Сообщение:<br/>
+	<textarea name="message"></textarea></p>
+	
+	<p><input type="checkbox" name="confirm" /> - Согласен с условиями...</p>
+	
+	<p><input type="submit" value="Отправить" /></p>
+	<p><button>Отправить 2</button></p>
+	
+	</form>
+
+</body>
+</html>

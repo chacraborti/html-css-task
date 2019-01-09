@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<title>HTML документ</title>
+</head>
+
+<frameset rows="100, *, 100" frameborder="0">
+	<frame src="top.html" scrolling="no" noresize />
+	<frameset cols="200, *">
+		<frame src="left.html" scrolling="no" noresize />
+		<frame src="main.html" name="mainFrame" noresize />
+	</frameset>
+	<frame src="bot.html" scrolling="no" />
+</frameset>
+
+</html>

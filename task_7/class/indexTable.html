@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<title>HTML документ</title>
+</head>
+<body>
+
+	<table width="80%" align="center" border="1" cellpadding="10" cellspacing="5">
+		<caption>Таблица с ячейками</caption>
+		<colgroup align="center">
+			<col width="250" valign="top" />
+			<col width="100" valign="bottom" />
+		</colgroup>
+		<col align="right" />
+		<thead>
+			<tr>
+				<th>Ячейка 10</th>
+				<th>Ячейка 11</th>
+				<th>Ячейка 12</th>
+			</tr>
+		</thead>
+		<tbody>	
+			<tr>
+				<td rowspan="3">Ячейка 1</td>
+				<td colspan="2">Ячейка 2</td>
+				<!--<td>Ячейка 3</td>-->
+			</tr>
+			<tr>
+				<!--<td height="80" align="right">Ячейка 4</td>-->
+				<td valign="bottom">Ячейка 5</td>
+				<td>Ячейка 6</td>
+			</tr>
+			<tr>
+				<!--<td>Ячейка 7</td>-->
+				<td>Ячейка 8</td>
+				<td>Ячейка 9</td>
+			</tr>			
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Итого</td>
+				<td>1</td>
+				<td>2</td>
+			</tr>
+		</tfoot>
+	</table>
+
+</body>
+</html>
