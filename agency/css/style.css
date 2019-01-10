@@ -106,7 +106,7 @@ a:hover {
 	margin-bottom: 20px;
 }
 
-.promo .button_more {
+ .button_more {
 	/*bgc#fff*/
 	background-color: #00bc9c;
 
@@ -179,3 +179,75 @@ a:hover {
 .preim .list .item3 {
 	background-image: url('../images/icon-star-empty-1.png');
 }
+
+.img_section {
+	display: inline-block;
+	padding: 0 10px;
+	margin-top: 70px;
+}
+
+.img_footer {
+	background: white;
+	margin-top: -4px;
+	padding: 15px 0;
+}
+
+.img_footer p:first-child{
+	font-weight: bold;
+	padding-top: 15px;
+}
+
+.img_footer p:last-child{
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.img_section_small {
+	margin-top: 70px;
+}
+
+.img_section_small img {
+	padding: 0 12px;
+}
+
+.block .description {
+	font-size: 22px;
+	line-height: 35px;
+	padding: 0 15%;
+}
+
+footer {
+	background-color: #2f3f51;
+	padding-top: 72px;
+}
+
+footer .site-container section {
+	width: 25%;
+	margin-left: -4px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+footer .site-container .middle {
+	width: 40%;
+	margin: 0 30px;
+}
+
+footer .site-container section:last-child {
+	padding-left: 20px;
+}
+
+footer section h3, footer section .elem {
+	padding-bottom: 25px;
+}
+
+footer footer {
+	background-color: #273545;
+}
+
+footer h3 {
+	text-transform: uppercase;
+}
+
+
