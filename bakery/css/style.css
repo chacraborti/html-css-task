@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: #506a85;
+}
+
+@font-face {
+    font-family: Scriptina; /* Гарнитура шрифта */
+    src: url('../font/scriptina.regular.ttf'); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Alegreya; /* Гарнитура шрифта */
+    src: url('../font/Alegreya-Regular.ttf'); /* Путь к файлу со шрифтом */
+}
+.header-container {
+    background: url('../img/backgroung-header.png') no-repeat;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.logo {
+    font-family: Scriptina;
+    font-size: 24px;
+    color: white;
+    padding-right: 40px;
+}
+nav {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 15px;
+
+}
+
+nav li a, nav ul{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-family: Alegreya;
+}
+
+nav{
+    text-align: justify;
+}
+
+img {
+    height: 16px;
+    width: 16px;
+    padding: 0 7px;
+}
+
+.site-container {
+    width: 90%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+section {
+    height: 1660px;
+}
+
+.first {
+    background: url('../img/first.png') no-repeat;
+}
