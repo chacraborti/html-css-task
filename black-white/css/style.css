@@ -1,13 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .site-container {
     width: 90%;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }
-@font-face {
-    font-family: Scriptina; /* Гарнитура шрифта */
-    src: url('../font/scriptina.regular.ttf'); /* Путь к файлу со шрифтом */
-}
+/*@font-face {*/
+    /*font-family: Scriptina; !* Гарнитура шрифта *!*/
+    /*src: url('../font/scriptina.regular.ttf'); !* Путь к файлу со шрифтом *!*/
+/*}*/
 
 @font-face {
     font-family: Helvetica; /* Гарнитура шрифта */
@@ -15,31 +20,47 @@
 }
 
 header {
-    display: flex;
-    align-content: center;
+    justify-content: center;
 }
-nav {
-    display: inline-block;
+nav{
+    text-align: center;
+}
+nav li:not(:nth-of-type(4)){
+    /*todo*/
 }
 
-nav li {
-    display: inline-block;
-    padding: 0 15px;
 
+nav li:first-child {
+    display: inline-block;
+    margin-right: 15px;
 }
+
+nav li:last-child {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav li:not(:first-child):not(:last-child) {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
 
 nav li a{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 13pt;
-    color: #989696
+    color: #989696;
 }
 
 nav li a:hover {
     color: #000;
 }
-nav{
-    text-align: justify;
+
+.main {
+    text-align: center;
 }
 
 h1 {
