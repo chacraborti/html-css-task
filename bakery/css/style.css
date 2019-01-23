@@ -20,7 +20,7 @@ body {
     src: url('../font/Alegreya-Regular.ttf'); /* Путь к файлу со шрифтом */
 }
 .header-container {
-    background: url('../img/backgroung-header.png') no-repeat;
+    background: url('../img/backgroung-header.png') ;
 
 }
 
@@ -79,4 +79,14 @@ section {
 
 .first {
     background: url('../img/first.png') no-repeat;
+    height: 850px;
+    width: 1600px;
+}
+
+.second {
+    background-color: #faf9f5;
+}
+
+.main-section {
+    height: 760px;
 }

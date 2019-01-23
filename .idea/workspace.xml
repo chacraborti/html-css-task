@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57282954-2919-4933-a399-772cd2df0730" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/bakery/font/Alegreya-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bakery/font/scriptina.regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bakery/img/backgroung-header.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bakery/img/first.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bakery/img/twitter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/black-white/html/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bakery/img/icons8-twitter-50.png" afterPath="$PROJECT_DIR$/bakery/img/icons8-twitter-50.png" />
-      <change beforePath="$PROJECT_DIR$/task_5/img/icons8-twitter-50.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bakery/css/style.css" afterPath="$PROJECT_DIR$/bakery/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/bakery/html/index.html" afterPath="$PROJECT_DIR$/bakery/html/index.html" />
+      <change beforePath="$PROJECT_DIR$/bakery/img/backgroung-header.png" afterPath="$PROJECT_DIR$/bakery/img/backgroung-header.png" />
+      <change beforePath="$PROJECT_DIR$/bakery/img/first.png" afterPath="$PROJECT_DIR$/bakery/img/first.png" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,20 +25,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bakery/html/index.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bakery/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="337">
+              <caret line="82" column="17" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backgroung-header.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bakery/img/backgroung-header.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bakery/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/black-white/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -84,6 +95,7 @@
         <option value="$PROJECT_DIR$/agency/css/style.css" />
         <option value="$PROJECT_DIR$/bakery/html/index.html" />
         <option value="$PROJECT_DIR$/bakery/css/style.css" />
+        <option value="$PROJECT_DIR$/black-white/html/index.html" />
       </list>
     </option>
   </component>
@@ -93,8 +105,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1593" />
+    <option name="y" value="-120" />
     <option name="width" value="1378" />
     <option name="height" value="735" />
   </component>
@@ -133,29 +146,17 @@
               <item name="html-css-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="html-css-course" type="462c0819:PsiDirectoryNode" />
               <item name="bakery" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html-css-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css-course" type="462c0819:PsiDirectoryNode" />
-              <item name="bakery" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="html-css-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="html-css-course" type="462c0819:PsiDirectoryNode" />
-              <item name="bakery" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="black-white" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="html-css-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="html-css-course" type="462c0819:PsiDirectoryNode" />
-              <item name="task_5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html-css-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css-course" type="462c0819:PsiDirectoryNode" />
-              <item name="task_5" type="462c0819:PsiDirectoryNode" />
+              <item name="black-white" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,7 +181,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -191,18 +192,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilona.Sidorovich\html-css-course\black-white\img" />
       <recent name="C:\Users\Ilona.Sidorovich\html-css-course\bakery\img" />
       <recent name="$PROJECT_DIR$/bakery/img" />
       <recent name="C:\Users\Ilona.Sidorovich\html-css-course\task_7\class" />
       <recent name="C:\Users\Ilona.Sidorovich\html-css-course\task_7\home" />
-      <recent name="C:\Users\Ilona.Sidorovich\html-css-course\task_6" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilona.Sidorovich\html-css-course\black-white\html" />
       <recent name="C:\Users\Ilona.Sidorovich\html-css-course\task_5" />
       <recent name="C:\Users\Ilona.Sidorovich\html-css-course\task_7" />
       <recent name="C:\Users\Ilona.Sidorovich\html-css-course\task_6" />
       <recent name="C:\Users\Ilona.Sidorovich\html-css-course\task_4\class\img" />
-      <recent name="C:\Users\Ilona.Sidorovich\html-css-course\task_4\home" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -455,7 +456,7 @@
       <workItem from="1547644175839" duration="414000" />
       <workItem from="1548071881231" duration="2967000" />
       <workItem from="1548098262156" duration="5633000" />
-      <workItem from="1548146907304" duration="2140000" />
+      <workItem from="1548146907304" duration="12450000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1545230280614</created>
@@ -534,14 +535,22 @@
       <option name="project" value="LOCAL" />
       <updated>1547045788478</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="header(without triangles, footer)">
+      <created>1548163206860</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1548163206861</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90369000" />
+    <option name="totallyTimeSpent" value="100679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-1928" y="-251" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -555,7 +564,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24229075" sideWeight="0.5" order="12" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.5" order="12" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -609,14 +618,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task_5/class/style.css" />
-    <entry file="file://$PROJECT_DIR$/task_5/home/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task_5/class/index.html" />
     <entry file="file://$PROJECT_DIR$/task_5/home/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -856,20 +857,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bakery/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bakery/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/bakery/img/icons8-google-plus-52.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bakery/img/icons8-twitter-50.png">
@@ -880,6 +870,30 @@
     <entry file="file://$PROJECT_DIR$/bakery/img/backgroung-header.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bakery/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="82" column="17" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bakery/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/black-white/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
