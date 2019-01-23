@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site-container {
+    width: 90%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*@font-face {*/
+    /*font-family: Scriptina; !* Гарнитура шрифта *!*/
+    /*src: url('../font/scriptina.regular.ttf'); !* Путь к файлу со шрифтом *!*/
+/*}*/
+
+@font-face {
+    font-family: Helvetica; /* Гарнитура шрифта */
+    src: url('../font/HelveticaNeueLTPro-Lt.ttf'); /* Путь к файлу со шрифтом */
+}
+
+header {
+    justify-content: center;
+}
+nav{
+    text-align: center;
+}
+nav li:not(:nth-of-type(4)){
+    /*todo*/
+}
+
+
+nav li:first-child {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav li:last-child {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav li:not(:first-child):not(:last-child) {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+
+nav li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    color: #989696;
+}
+
+nav li a:hover {
+    color: #000;
+}
+
+.main {
+    text-align: center;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 44pt;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 16pt;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.read-more{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+}
