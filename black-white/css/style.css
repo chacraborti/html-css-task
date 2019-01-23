@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    /*background-image: url('../png/bg-black.png');*/
+    /*background-size: cover;*/
+}
+
 .site-container {
     width: 90%;
     max-width: 1280px;
@@ -61,6 +66,15 @@ nav li a:hover {
 
 .main {
     text-align: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+button {
+ border: solid 1px #000000;
+    border-radius: 0;
+    padding: 20px 50px;
+    margin-top: 50px;
 }
 
 h1 {
@@ -68,7 +82,7 @@ h1 {
     font-size: 44pt;
 }
 
-h2 {
+.main h2 {
     font-family: 'Merriweather', serif;
     font-size: 16pt;
     font-weight: lighter;
@@ -79,3 +93,125 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 13pt;
 }
+
+.go_down {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.round {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.round:first-child {
+    opacity:  0.2;
+}
+
+.round:first-child {
+    opacity:  0.2;
+}
+
+.round:nth-child(2) {
+    opacity: 0.4;
+}
+
+.round:last-child {
+    opacity:  0.6;
+}
+
+.second{
+    display: flex;
+    height: 1000px;
+}
+
+.second .side {
+    color: #ffffff;
+}
+
+.second .side:first-child {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.second .side:last-child {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.second .side h2 {
+    font-size: 48pt;
+}
+
+.second .side p {
+    font-size: 15pt;
+    color: #b7b7b7;
+}
+
+.second .side:first-child {
+    margin-top: 87px;
+}
+
+.centralized{
+    text-align: center;
+}
+
+.third h2 {
+    font-size: 34pt;
+    margin-top: 40px;
+}
+
+.third h3{
+    font-size: 16pt;
+    color: #b7b7b7;
+}
+
+.flex {
+    display: flex;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex article:first-child, .flex article:last-child{
+    margin-top: 120px;
+}
+
+h4 {
+    font-size: 16pt;
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 13px;
+}
+
+h4, h5 {
+    color: #b7b7b7;
+}
+
+article img {
+    margin-top: 10px;
+}
+
+input {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
