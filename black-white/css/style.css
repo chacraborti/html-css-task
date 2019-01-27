@@ -83,9 +83,10 @@ button {
     padding: 20px 50px;
     margin-top: 50px;
 }
-
-h1 {
+h1, h2, h3, p {
     font-family: Helvetica;
+}
+h1 {
     font-size: 44pt;
 }
 
@@ -132,39 +133,36 @@ h1 {
     opacity:  0.6;
 }
 
-.flex {
-    display: flex;
-}
-.second{
+.history {
     display: flex;
     height: 1000px;
     background-color: black;
 }
 
-.second .side {
+.history .side {
     color: #ffffff;
 }
 
-.second .side:first-child {
+.history .side:first-child {
     text-align: right;
     margin-right: 100px;
 }
 
-.second .side:last-child {
+.history .side:last-child {
     text-align: left;
     margin-left: 100px;
 }
 
-.second .side h2 {
+.history .side h2 {
     font-size: 48pt;
 }
 
-.second .side p {
+.history .side p {
     font-size: 15pt;
     color: #b7b7b7;
 }
 
-.second .side:first-child {
+.history .side:first-child {
     margin-top: 87px;
 }
 
@@ -172,12 +170,12 @@ h1 {
     text-align: center;
 }
 
-.third h2 {
+h2 {
     font-size: 34pt;
     margin-top: 40px;
 }
 
-.third h3{
+h3{
     font-size: 16pt;
     color: #b7b7b7;
 }
@@ -189,6 +187,9 @@ h1 {
     margin-left: auto;
     align-items: center;
     justify-content: space-around;
+}
+.team .flex{
+    margin-top: 125px;
 }
 
 .flex article:first-child, .flex article:last-child{
@@ -222,27 +223,78 @@ textarea {
     margin-bottom: 10px;
 }
 
-.fourth {
-    /*background-image: url('../img/sevices-bg.png');*/
-    /*background-repeat: no-repeat ;*/
+.advantages {
+    background-image: url('../img/sevices-bg.png');
+    background-repeat: no-repeat ;
+}
+.advantages .flex {
+    margin-top: 220px;
 }
 
-.background {
-    background: black;
-    transform: skew(0,190deg);
+.advantages h2{
+    padding-top: 230px;
+    color: #ffffff;
 }
 
-.fourth h2{
-    padding-top: 300px;
+.advantages h3, .advantages h4{
+    color: #b7b7b7;
 }
 
-.secvice_sec h4 {
+.advantages h5 {
+    color: #323232;
+    margin-top: 32px;
+    padding: 0 50px;
+}
+
+.service_sec h4 {
     color: white;
 }
 
 .flex + button {
-    margin-top: 700px;
-    margin-bottom: 400px;
+    margin-top: 550px;
+    margin-bottom: 300px;
     text-transform: uppercase;
 }
+
+.contacts {
+    margin-top: 100px;
+    font-size: 12pt;
+}
+
+.contacts .flex {
+    margin-top: 60px;
+}
+
+.contacts p {
+    margin-top: 10px;
+    color: #b7b7b7;
+}
+
+.contacts form {
+    margin-top: 170px;
+}
+
+input, textarea {
+    font-size: 15pt;
+    border: solid 2px #b7b7b7;
+}
+
+input {
+    text-align: center;
+    height: 50px;
+}
+
+input[type=submit] {
+    background: #000000;
+    color: #ffffff;
+    border: none;
+}
+
+footer {
+    margin-top: 150px;
+    color: #b7b7b7;
+    font-size: 14pt;
+}
+
+
 
